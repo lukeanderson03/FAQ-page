@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+
+/* ----------------------------------- HEADER ----------------------------------- */
+
+header {
+    margin: 20px 0px 100px 0px;
+    font-family: 'Source Code Pro';
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+h1 {
+    margin: auto;
+    width: fit-content;
+}
+
+/* ---------------------------------- QUESTIONS ---------------------------------- */
+
+.container {
+    margin: auto;
+    margin-bottom: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    width: 50%;
+    min-width: 800px;
+    padding: 30px 0;
+}
+
+
+
+.question-title {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.question-title p {
+    font-weight: 500;
+    margin-left: 25px;
+    font-size: 1.5rem;
+    -ms-flex-align: start;
+}
+
+.question-btn {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.question-btn:hover {
+    transform-origin: 35%;
+    transform: rotate(90deg);
+}
+
+.question-text {
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 10px;
+    border-top-style: solid;
+    font-weight: 300;
+    margin: 0px 25px;
+    font-size: 1.3rem;
+}
+
+button img {
+    width: 40px;
+    margin-right: 25px;
+}
+
+/* -------------------------------- HIDE TEXT --------------------------------- */
+
+.question-text {
+    display: none;
+}
+
+.show-text .question-text {
+    display: block;
+}
+
+.minus-icon {
+    display: none;
+}
+
+.show-text .minus-icon {
+    display: inline;
+}
+
+.show-text .plus-icon {
+    display: none;
+}
+
